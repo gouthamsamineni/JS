@@ -99,9 +99,22 @@
          count++;
 
          var timeToComplete = timeToComplete + timetaken;
+        
+        if(count == 6){
+         alert("WELL DONE"); 
+        }
 
-         if(count == 51 || count == 101){
+        if(count==16){
+          alert("EXCELLENT");
+        }
+        
+        if(count == 26){
+          alert("YOU NEED TO MOVE TO NEXT LEVEL U ARE AWSOME IN THIS GAME");
+        }
+        
+         if(count == 36){
            alert("i think u are the one to achive this task in less time ");
+           alert("Congratulations");
          }
         document.getElementById('timetaken').innerHTML=timetaken + "s";
 
